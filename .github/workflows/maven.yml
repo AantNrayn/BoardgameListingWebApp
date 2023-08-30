@@ -31,4 +31,8 @@ jobs:
       run: mvn test
     - name: package with Maven
       run: mvn install
+    - uses: actions/upload-artifact@v3
+      with:
+      name: my-artifact
+      path: target
 
