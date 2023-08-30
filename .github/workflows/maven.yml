@@ -10,6 +10,16 @@ on:
 jobs:
   build:
 
+name: build maven app self hosted vm
+
+on:
+  push:
+    branches: [ "self hosted" ]
+
+
+jobs:
+  build:
+
     runs-on: self-hosted
 
     steps:
@@ -26,3 +36,4 @@ jobs:
       run: mvn test
     - name: package with Maven
       run: mvn package
+
