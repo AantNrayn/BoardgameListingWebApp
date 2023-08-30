@@ -25,4 +25,4 @@ jobs:
     - name: test with Maven
       run: mvn test
     - name: package with Maven
-      run: mvn install
+      run: mvn package
