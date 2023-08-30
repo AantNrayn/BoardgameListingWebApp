@@ -4,7 +4,7 @@ name: build maven app self hosted vm
 
 on:
   push:
-    branches: [ "devlope" ]
+    branches: [ "ubuntu:latest" ]
 
 
 jobs:
