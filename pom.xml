@@ -14,11 +14,10 @@
 	<name>database_service_project</name>
 	<description>Project for Spring Boot</description>
 	<packaging>jar</packaging>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+	
 	<properties>
     		<!-- JaCoCo Properties -->
+		<java.version>11</java.version>
     		<jacoco.version>0.8.7</jacoco.version>
     		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
